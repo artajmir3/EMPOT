@@ -1,8 +1,8 @@
 # EMPOT
-This is an implementation of EMPOT, an algorithm designed for solving the partial alignment of cryo-EM density maps. More detailes can be found on our manuscript https://arxiv.org/abs/2311.00850.
+This is an implementation of EMPOT, an algorithm designed for solving the partial alignment of cryo-EM density maps. More details can be found in our manuscript https://arxiv.org/abs/2311.00850.
 
 ## Requirements
-The following python packages are required to run our code:
+Our code is implemented in Python 3.10.11. The following Python packages are required to run our code:
 - matplotlib (3.7.1)
 - mrcfile (1.4.3)
 - numpy (1.23.5)
@@ -16,4 +16,4 @@ The following python packages are required to run our code:
 - tornado (4.5.3)
 
 ## Usage
-The user can download the python files in [src](https://github.com/artajmir3/EMPOT/tree/main/src) folder. This implementation can be used in a couple of ways. The user either can use it just as an alignment method or as an model building method featuring the options to select best alignment for subunits and generate corresponding PDB files for them. A comprehensive example for both usages is available in [examples](https://github.com/artajmir3/EMPOT/tree/main/examples) folder. For now, we did not implement the refinement step of the alignment in python. For this step, user can generate the output of alignment as a PDB file and perform the refinement via ChimeraX.
+The user can download the Python files in [src](https://github.com/artajmir3/EMPOT/tree/main/src) folder. This implementation can be used in a couple of ways. The user can use it either as an alignment method or as a model-building method featuring the options to select the best alignment for subunits and generate corresponding PDB files for them. A comprehensive example of both usages is available in the [examples] folder (https://github.com/artajmir3/EMPOT/tree/main/examples). For now, we have not implemented the refinement step of the alignment in Python. For this step, the user can generate the alignment outputs as a PDB file and perform the refinement via ChimeraX.
